@@ -62,6 +62,10 @@ $hay_id = array_key_exists("id", $usuario); // true o false
 // 19. array_unique: Elimina valores duplicados de un array.
 $unicos = array_unique([1, 2, 2, 3]); // [1, 2, 3]
 
+// 20. sort: Ordena un array de menor a mayor.
+sort($numeros);
+
+
 
 
 
