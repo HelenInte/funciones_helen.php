@@ -111,6 +111,9 @@ ceil(3.1); // 4
 // 34. floor: Redondea un número hacia abajo (quita los decimales).
 floor(3.9); // 3
 
+// 35. abs: Devuelve el valor absoluto (siempre positivo).
+abs(-10); // 10
+
 
 
 
