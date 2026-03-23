@@ -24,3 +24,6 @@ $parte = substr("Abecedario", 0, 3);
 
 // 7. strpos: Encuentra la posición numérica de la primera aparición de un texto.
 $posicion = strpos("Busca aquí", "aquí"); 
+
+// 8. explode: Divide un string en varios pedazos y los mete en un array.
+$array = explode(",", "pan,leche,huevos"); 
