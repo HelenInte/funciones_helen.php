@@ -136,6 +136,10 @@ $json = json_encode(["status" => "ok"]); // '{"status":"ok"}'
 // 42. json_decode: Convierte un texto JSON a un objeto o array de PHP.
 $datos = json_decode($json, true);
 
+// Seguridad y Sistema
+// 43. password_hash: Crea un hash de contraseña seguro e irreversible.
+$hash = password_hash("mi_clave", PASSWORD_DEFAULT);
+
 
 
 
