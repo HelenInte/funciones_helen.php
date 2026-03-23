@@ -21,3 +21,6 @@ $limpio = trim("  suave  ");
 
 // 6. substr: Devuelve una parte de una cadena (desde posición, cuántos caracteres).
 $parte = substr("Abecedario", 0, 3); 
+
+// 7. strpos: Encuentra la posición numérica de la primera aparición de un texto.
+$posicion = strpos("Busca aquí", "aquí"); 
