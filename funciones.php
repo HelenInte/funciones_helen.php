@@ -85,6 +85,9 @@ if(empty($carrito)) { ... }
 // 26. is_array: Comprueba si la variable es un array.
 is_array($datos); // true/false
 
+// 27. is_numeric: Comprueba si una variable es un número o un string numérico.
+is_numeric("123.5"); // true
+
 
 
 
