@@ -102,6 +102,9 @@ $texto = strval(550); // "550"
 // 31. rand: Genera un número entero aleatorio.
 $azar = rand(1, 10); // Ejemplo: 7
 
+// 32. round: Redondea un número flotante al entero más cercano.
+round(3.6); // 4
+
 
 
 
