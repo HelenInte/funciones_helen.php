@@ -12,3 +12,6 @@ $texto = str_replace("mundo", "PHP", "Hola mundo"); // "Hola PHP"
 
 // 3. strtolower: Convierte toda la cadena a minúsculas.
 $min = strtolower("HOLA"); // "hola"
+
+// 4. strtoupper: Convierte toda la cadena a mayúsculas.
+$may = strtoupper("hola"); // "HOLA"
