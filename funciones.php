@@ -79,6 +79,10 @@ $dobles = array_map(fn($n) => $n * 2, [1, 2, 3]); // [2, 4, 6]
 // 24. isset: Determina si una variable está definida y no es NULL.
 if(isset($usuario)) { ... }
 
+// 25. empty: Determina si una variable está vacía (0, "", null, false o array vacío).
+if(empty($carrito)) { ... }
+
+
 
 
 
