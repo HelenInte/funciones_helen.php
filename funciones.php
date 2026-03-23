@@ -50,4 +50,10 @@ $unido = array_merge($lista1, $lista2);
 // 15. array_keys: Devuelve todas las llaves (nombres de índices) de un array.
 $llaves = array_keys(["id" => 5, "nombre" => "Ana"]); // ["id", "nombre"]
 
+// 16. array_values: Devuelve todos los valores de un array, ignorando las llaves.
+$valores = array_values(["id" => 5, "nombre" => "Ana"]); // [5, "Ana"]
+
+
+
+
 
