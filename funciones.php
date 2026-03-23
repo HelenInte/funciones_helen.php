@@ -27,3 +27,6 @@ $posicion = strpos("Busca aquí", "aquí");
 
 // 8. explode: Divide un string en varios pedazos y los mete en un array.
 $array = explode(",", "pan,leche,huevos"); 
+
+// 9. implode: Une elementos de un array con un conector para formar un string.
+$string = implode("-", ["2026", "03", "23"]); 
