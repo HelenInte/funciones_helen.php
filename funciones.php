@@ -65,6 +65,10 @@ $unicos = array_unique([1, 2, 2, 3]); // [1, 2, 3]
 // 20. sort: Ordena un array de menor a mayorr.
 sort($numeros);
 
+// 21. asort: Ordena un array manteniendo la asociación de índices (útil para diccionarios).
+asort($edades);
+
+
 
 
 
