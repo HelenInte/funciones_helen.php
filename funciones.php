@@ -105,7 +105,8 @@ $azar = rand(1, 10); // Ejemplo: 7
 // 32. round: Redondea un número flotante al entero más cercano.
 round(3.6); // 4
 
-
+// 33. ceil: Redondea un número hacia arriba (al siguiente entero).
+ceil(3.1); // 4
 
 
 
