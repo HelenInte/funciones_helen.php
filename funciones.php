@@ -146,6 +146,8 @@ password_verify("mi_clave", $hash); // true
 // 45. htmlspecialchars: Convierte caracteres especiales en entidades HTML (evita XSS).
 $seguro = htmlspecialchars("<script>"); // "&lt;script&gt;"
 
+// 46. header: Envía una cabecera HTTP sin procesar (muy usado para redirecciones).
+header("Location: gracias.html");
 
 
 
