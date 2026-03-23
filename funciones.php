@@ -155,6 +155,9 @@ echo date("H:i:s"); // "13:30:36"
 // 48. time: Devuelve el tiempo actual como una marca de tiempo Unix (segundos).
 $ahora = time();
 
+// 49. die / exit: Imprime un mensaje y termina inmediatamente el script.
+die("Conexión fallida");
+
 
 
 
