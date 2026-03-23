@@ -53,6 +53,9 @@ $llaves = array_keys(["id" => 5, "nombre" => "Ana"]); // ["id", "nombre"]
 // 16. array_values: Devuelve todos los valores de un array, ignorando las llaves.
 $valores = array_values(["id" => 5, "nombre" => "Ana"]); // [5, "Ana"]
 
+// 17. in_array: Comprueba si un valor específico existe dentro de un array.
+$existe = in_array("Pepsi", $bebidas); // true o false
+
 
 
 
