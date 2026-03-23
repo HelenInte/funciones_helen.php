@@ -140,6 +140,10 @@ $datos = json_decode($json, true);
 // 43. password_hash: Crea un hash de contraseña seguro e irreversible.
 $hash = password_hash("mi_clave", PASSWORD_DEFAULT);
 
+// 44. password_verify: Comprueba que una contraseña coincida con un hash guardado.
+password_verify("mi_clave", $hash); // true
+
+
 
 
 
