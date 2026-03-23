@@ -68,6 +68,9 @@ sort($numeros);
 // 21. asort: Ordena un array manteniendo la asociación de índices (útil para diccionarios).
 asort($edades);
 
+// 22. array_filter: Filtra elementos de un array usando una función de retorno.
+$pares = array_filter($numeros, fn($n) => $n % 2 == 0);
+
 
 
 
