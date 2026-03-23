@@ -121,6 +121,10 @@ echo number_format(1500.5, 2, '.', ','); // "1,500.50"
 // 37. file_get_contents: Lee un archivo completo a una cadena de texto.
 $todo = file_get_contents("notas.txt");
 
+// 38. file_put_contents: Escribe datos en un archivo (lo crea si no existe).
+file_put_contents("log.txt", "Nuevo registro");
+
+
 
 
 
