@@ -47,5 +47,7 @@ $ultimo = array_pop($frutas);
 // 14. array_merge: Combina dos o más arrays en uno solo.
 $unido = array_merge($lista1, $lista2);
 
+// 15. array_keys: Devuelve todas las llaves (nombres de índices) de un array.
+$llaves = array_keys(["id" => 5, "nombre" => "Ana"]); // ["id", "nombre"]
 
 
