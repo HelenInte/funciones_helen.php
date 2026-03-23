@@ -108,6 +108,9 @@ round(3.6); // 4
 // 33. ceil: Redondea un número hacia arriba (al siguiente entero).
 ceil(3.1); // 4
 
+// 34. floor: Redondea un número hacia abajo (quita los decimales).
+floor(3.9); // 3
+
 
 
 
