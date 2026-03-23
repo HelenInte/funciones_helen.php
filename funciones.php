@@ -149,6 +149,10 @@ $seguro = htmlspecialchars("<script>"); // "&lt;script&gt;"
 // 46. header: Envía una cabecera HTTP sin procesar (muy usado para redirecciones).
 header("Location: gracias.html");
 
+// 47. date: Formatea una fecha y hora local según un formato dado.
+echo date("H:i:s"); // "13:30:36"
+
+
 
 
 
