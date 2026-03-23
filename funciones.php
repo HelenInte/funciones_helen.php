@@ -18,3 +18,6 @@ $may = strtoupper("hola");
 
 // 5. trim: Elimina espacios en blanco (u otros caracteres) del inicio y final.
 $limpio = trim("  suave  "); 
+
+// 6. substr: Devuelve una parte de una cadena (desde posición, cuántos caracteres).
+$parte = substr("Abecedario", 0, 3); 
