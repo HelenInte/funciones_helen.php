@@ -41,6 +41,9 @@ $total = count([10, 20, 30]);
 // 12. array_push: Inserta uno o más elementos al final del array.
 array_push($frutas, "Manzana");
 
+// 13. array_pop: Extrae y elimina el último elemento del array.
+$ultimo = array_pop($frutas);
+
 
 
 
