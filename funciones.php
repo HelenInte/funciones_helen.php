@@ -97,7 +97,10 @@ $entero = intval("42px"); // 42
 // 30. strval: Convierte una variable a tipo string.
 $texto = strval(550); // "550"
 
+// Matemáticas y Números
 
+// 31. rand: Genera un número entero aleatorio.
+$azar = rand(1, 10); // Ejemplo: 7
 
 
 
