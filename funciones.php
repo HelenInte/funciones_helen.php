@@ -88,6 +88,9 @@ is_array($datos); // true/false
 // 27. is_numeric: Comprueba si una variable es un número o un string numérico.
 is_numeric("123.5"); // true
 
+// 28. gettype: Devuelve el tipo de dato de la variable.
+echo gettype(true); // "boolean"
+
 
 
 
