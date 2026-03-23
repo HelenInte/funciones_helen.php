@@ -71,6 +71,10 @@ asort($edades);
 // 22. array_filter: Filtra elementos de un array usando una función de retorno.
 $pares = array_filter($numeros, fn($n) => $n % 2 == 0);
 
+// 23. array_map: Aplica una función a cada elemento de un array.
+$dobles = array_map(fn($n) => $n * 2, [1, 2, 3]); // [2, 4, 6]
+
+
 
 
 
