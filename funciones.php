@@ -114,6 +114,8 @@ floor(3.9); // 3
 // 35. abs: Devuelve el valor absoluto (siempre positivo).
 abs(-10); // 10
 
+// 36. number_format: Formatea un número con separadores de miles y decimales.
+echo number_format(1500.5, 2, '.', ','); // "1,500.50"
 
 
 
