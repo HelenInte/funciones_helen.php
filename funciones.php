@@ -127,6 +127,10 @@ file_put_contents("log.txt", "Nuevo registro");
 // 39. file_exists: Verifica si un archivo o directorio existe físicamente.
 file_exists("config.php"); // true/false
 
+// 40. unlink: Borra un archivo del sistema de forma permanente.
+unlink("temporal.tmp");
+
+
 
 
 
