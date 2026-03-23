@@ -44,6 +44,8 @@ array_push($frutas, "Manzana");
 // 13. array_pop: Extrae y elimina el último elemento del array.
 $ultimo = array_pop($frutas);
 
+// 14. array_merge: Combina dos o más arrays en uno solo.
+$unido = array_merge($lista1, $lista2);
 
 
 
