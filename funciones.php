@@ -34,3 +34,8 @@ $string = implode("-", ["2026", "03", "23"]);
 // 10. ucfirst: Convierte a mayúscula solo el primer carácter de la cadena.
 $nombre = ucfirst("pedro"); 
 
+// Manejo de Arrays
+// 11. count: Cuenta todos los elementos de un array.
+$total = count([10, 20, 30]); 
+
+
