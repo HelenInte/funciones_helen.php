@@ -30,3 +30,7 @@ $array = explode(",", "pan,leche,huevos");
 
 // 9. implode: Une elementos de un array con un conector para formar un string.
 $string = implode("-", ["2026", "03", "23"]); 
+
+// 10. ucfirst: Convierte a mayúscula solo el primer carácter de la cadena.
+$nombre = ucfirst("pedro"); 
+
