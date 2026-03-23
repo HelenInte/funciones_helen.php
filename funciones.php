@@ -59,6 +59,9 @@ $existe = in_array("Pepsi", $bebidas); // true o false
 // 18. array_key_exists: Verifica si una llave o índice específico existe.
 $hay_id = array_key_exists("id", $usuario); // true o false
 
+// 19. array_unique: Elimina valores duplicados de un array.
+$unicos = array_unique([1, 2, 2, 3]); // [1, 2, 3]
+
 
 
 
