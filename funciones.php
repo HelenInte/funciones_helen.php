@@ -124,6 +124,9 @@ $todo = file_get_contents("notas.txt");
 // 38. file_put_contents: Escribe datos en un archivo (lo crea si no existe).
 file_put_contents("log.txt", "Nuevo registro");
 
+// 39. file_exists: Verifica si un archivo o directorio existe físicamente.
+file_exists("config.php"); // true/false
+
 
 
 
