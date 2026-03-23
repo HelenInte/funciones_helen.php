@@ -133,6 +133,9 @@ unlink("temporal.tmp");
 // 41. json_encode: Convierte un array u objeto PHP a formato JSON (texto).
 $json = json_encode(["status" => "ok"]); // '{"status":"ok"}'
 
+// 42. json_decode: Convierte un texto JSON a un objeto o array de PHP.
+$datos = json_decode($json, true);
+
 
 
 
