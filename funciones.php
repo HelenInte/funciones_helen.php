@@ -130,6 +130,10 @@ file_exists("config.php"); // true/false
 // 40. unlink: Borra un archivo del sistema de forma permanente.
 unlink("temporal.tmp");
 
+// 41. json_encode: Convierte un array u objeto PHP a formato JSON (texto).
+$json = json_encode(["status" => "ok"]); // '{"status":"ok"}'
+
+
 
 
 
