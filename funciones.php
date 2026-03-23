@@ -94,6 +94,8 @@ echo gettype(true); // "boolean"
 // 29. intval: Obtiene el valor entero de una variable.
 $entero = intval("42px"); // 42
 
+// 30. strval: Convierte una variable a tipo string.
+$texto = strval(550); // "550"
 
 
 
