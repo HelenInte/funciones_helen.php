@@ -56,6 +56,9 @@ $valores = array_values(["id" => 5, "nombre" => "Ana"]); // [5, "Ana"]
 // 17. in_array: Comprueba si un valor específico existe dentro de un array.
 $existe = in_array("Pepsi", $bebidas); // true o false
 
+// 18. array_key_exists: Verifica si una llave o índice específico existe.
+$hay_id = array_key_exists("id", $usuario); // true o false
+
 
 
 
