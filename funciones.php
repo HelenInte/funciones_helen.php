@@ -38,4 +38,9 @@ $nombre = ucfirst("pedro");
 // 11. count: Cuenta todos los elementos de un array.
 $total = count([10, 20, 30]); 
 
+// 12. array_push: Inserta uno o más elementos al final del array.
+array_push($frutas, "Manzana");
+
+
+
 
