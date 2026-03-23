@@ -117,6 +117,11 @@ abs(-10); // 10
 // 36. number_format: Formatea un número con separadores de miles y decimales.
 echo number_format(1500.5, 2, '.', ','); // "1,500.50"
 
+// Archivos y JSON
+// 37. file_get_contents: Lee un archivo completo a una cadena de texto.
+$todo = file_get_contents("notas.txt");
+
+
 
 
 
