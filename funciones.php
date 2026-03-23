@@ -158,6 +158,10 @@ $ahora = time();
 // 49. die / exit: Imprime un mensaje y termina inmediatamente el script.
 die("Conexión fallida");
 
+// 50. var_dump: Muestra información estructurada sobre una variable (tipo y valor).
+var_dump($array); // Herramienta técnica para programadores.
+
+
 
 
 
