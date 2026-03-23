@@ -91,6 +91,9 @@ is_numeric("123.5"); // true
 // 28. gettype: Devuelve el tipo de dato de la variable.
 echo gettype(true); // "boolean"
 
+// 29. intval: Obtiene el valor entero de una variable.
+$entero = intval("42px"); // 42
+
 
 
 
