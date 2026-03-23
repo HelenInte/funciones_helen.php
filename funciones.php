@@ -82,6 +82,9 @@ if(isset($usuario)) { ... }
 // 25. empty: Determina si una variable está vacía (0, "", null, false o array vacío).
 if(empty($carrito)) { ... }
 
+// 26. is_array: Comprueba si la variable es un array.
+is_array($datos); // true/false
+
 
 
 
